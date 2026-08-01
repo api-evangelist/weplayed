@@ -1,7 +1,23 @@
 aid: weplayed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weplayed.png
 name: WePlayed
-description: WePlayed is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WePlayed builds AI-powered short-form video for college athletics, automatically
+  turning full game and event footage into shareable highlight clips that athletic departments,
+  sponsors, and fans use to engage audiences and power sponsorship deals. A Techstars Sports
+  Accelerator company that raised a $2 million seed round, WePlayed partners with SIDEARM Sports
+  to distribute highlights across collegiate athletics websites. As of this profile WePlayed does
+  not publish a public developer API, SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/weplayed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Sports
+- Video
+- Artificial Intelligence
+- Media
+- College Athletics
+- Highlights
+- Short-Form Video
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/weplayed-domain-security.yml
 - type: Website
   url: https://weplayed.com/
+- type: Blog
+  url: https://weplayed.com/newsroom
+- type: TermsOfService
+  url: https://weplayed.com/terms
+- type: PrivacyPolicy
+  url: https://weplayed.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
